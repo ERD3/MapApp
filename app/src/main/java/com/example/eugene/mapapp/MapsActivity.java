@@ -159,13 +159,14 @@ public class MapsActivity extends FragmentActivity implements
 
     private void mapPath () {
         Polyline line = googleMap.addPolyline(new PolylineOptions());
-        
+
     }
 
     @Override
     protected void onPause() {
         super.onPause();
         stopLocationUpdates();
+        //Test stuff
     }
 
     protected void stopLocationUpdates() {
