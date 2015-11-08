@@ -159,7 +159,7 @@ public class MapsActivity extends FragmentActivity implements
 
     private void mapPath () {
         Polyline line = googleMap.addPolyline(new PolylineOptions());
-        // Not in use yet
+        
     }
 
     @Override
